@@ -83,7 +83,7 @@ return this.state.anagrams.map((el, index) => <Anagram key={index} anagram={el} 
       
       this.renderedResults()
       :
-      <p>If there are no anagrams here after hitting enter, none were</p>}
+      <p>If there are no anagrams here after hitting enter, none were found</p>}
       </div>
     </>
     )
